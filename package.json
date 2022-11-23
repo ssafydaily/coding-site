@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "y",
+  "description": "Start Vuepress",
+  "main": "index.js",
+  "author": "jongyun <jongyun.jung@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.53",
+    "@vuepress/plugin-search": "^2.0.0-beta.53",
+    "vuepress": "^2.0.0-beta.53",
+    "vuepress-plugin-iconify": "^0.1.0",
+    "vuepress-plugin-md-enhance": "^2.0.0-beta.126"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
