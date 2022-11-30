@@ -6,7 +6,7 @@ import { iconifyPlugin } from 'vuepress-plugin-iconify'
 import { navbar } from './navbar'
 
 module.exports = {
-  base: '/note-vuepress',
+  base: '/coding-site',
   lang: 'ko-KR',
   title: 'ssafydaily',
   // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
