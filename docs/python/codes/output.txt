@@ -1,0 +1,2 @@
+첫번째 문자열
+python input/ouput programming
