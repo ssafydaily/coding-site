@@ -5,7 +5,8 @@
 ### open text file
 
 ```python
-file_object = open('파일경로(file_path)', '모드(mode)')
+file_object = open('파일경로(file_path)')           # 읽기모드로 텍스트파일 열기
+file_object = open('파일경로(file_path)', '모드(mode)')     # 지정한 모드로 열기
 ```
 
 |모드(mode)|설명|
@@ -14,10 +15,17 @@ file_object = open('파일경로(file_path)', '모드(mode)')
 |`'w'`     | 텍스트 파일을 쓰기 모드로 열기. 동일한 이름의 파일이 있으면 기존 내용은 사라진다. |
 |`'a'`     | 텍스트 파일을 추가 모드로 열기. |
 
+### close file
+
+```python
+f = open('input.txt')           
+f.close()               # 파일닫기
+```
+
 ### read file
 
 ```python
-file_object = open('파일경로(file_path)', 'r')
+f = open('파일경로(file_path)', 'r')
 ```
 
 |메서드|설명|
@@ -33,13 +41,20 @@ file_object = open('파일경로(file_path)', 'r')
 
 ### write file
 ```python
-file_object = open('파일경로(file_path)', 'w')
+f = open('파일경로(file_path)', 'w')
+f.write('hello\n')      # 문자열을 쓰고, 문자열의 크기를 반환
 ```
 ::: details examples
-@[code](./codes/01_03_writetext.py)
+@[code](./codes/10_03_writetext.py)
 :::
 
-## CSV 
+### read line-by-line
+
+@[code](./codes/10_04_readline_by_line.py)
+
+::: details line 단위로 파일 복사하기
+@[code](./codes/10_04_readline_and_write.py) 
+:::
 
 ## Json 
 

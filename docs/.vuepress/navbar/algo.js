@@ -4,11 +4,13 @@ const introGroup = {
 }
 const arrayGroup = {
   text: 'array',
-  children: [],
+  children: [
+    '/algo/basic/1d_array.md',  '/algo/basic/2d_array.md', '/algo/basic/array_partition.md',
+  ],
 }
 
 export const algoGroup = {
   text: 'algorithm',
-  children: [ introGroup, ]
+  children: [ introGroup, arrayGroup]
 }
 
