@@ -1,8 +1,8 @@
-export const introGroup = {
+const introGroup = {
   text: 'intro',
   children: [ '/algo/'],
 }
-export const arrayGroup = {
+const arrayGroup = {
   text: 'array',
   children: [
     '/algo/basic/1d_array.md',  '/algo/basic/2d_array.md', '/algo/basic/array_partition.md',

@@ -1,10 +1,13 @@
 
-const pythonTest = {
-  text: 'unittest & pytest',
-  children: [ '/test/python/'],
+const unittest = {
+  text: 'unittest',
+  children: [ '/test/unittest/'],
 }
-
+const pytest = {
+  text: 'pytest',
+  children: [],
+}
 export const testGroup = {
   text: 'test',
-  children: [ pythonTest, ]
+  children: [ unittest, pytest ]
 }
