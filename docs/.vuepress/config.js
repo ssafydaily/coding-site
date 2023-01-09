@@ -9,8 +9,8 @@ import { navbar } from './navbar'
 module.exports = {
   base: '/coding-site',
   lang: 'ko-KR',
-  title: 'ssafydaily',
-  // head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  title: 'LetsGo',
+  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   themeConfig: {
     search: true,
     searchMaxSuggestions: 10,  
