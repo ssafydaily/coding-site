@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-71c2e703","path":"/python/11_decorator.html","title":"Decorator","lang":"ko-KR","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669274962000,"contributors":[{"name":"jongyun","email":"jongyun.jung@gmail.com","commits":1}]},"filePathRelative":"python/11_decorator.md"}');export{t as data};

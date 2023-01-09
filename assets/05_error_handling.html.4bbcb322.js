@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-ca6d9bc6","path":"/python/05_error_handling.html","title":"Error Handling","lang":"ko-KR","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669274962000,"contributors":[{"name":"jongyun","email":"jongyun.jung@gmail.com","commits":1}]},"filePathRelative":"python/05_error_handling.md"}');export{t as data};
