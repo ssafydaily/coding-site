@@ -5,7 +5,7 @@ import { testGroup } from "./test"
 import { djangoGroup } from "./django"
 export const navbar =  [      
   pythonGroup,
-  algoGroup,
+  // algoGroup,
   // djangoGroup,
   // webGroup,
   // testGroup,

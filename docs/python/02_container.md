@@ -15,20 +15,29 @@
 ## Sequence 
 
 - 순서화된 자료들로, 특정 위치(**index**)에 해당하는 자료를 가리킬 수 있다.
-- 따라서, `list`, `tuple`, `str` 은 **sequence** 이고, `dict`, `set` 은 시퀀스가 아니다.
+- 따라서, `list`, `tuple`, `str` 은 **sequence** 이고, `dict`, `set` 은 **non-sequence** 이다.
 
 ```python
 name = 'gil-dong'
 print(name[1])  # i 를 출력
+print(name[-1]) # g 를 출력
+```
 
+- `dict` 에 **index** 를 사용하면 오류가 발생한다.
+```python
 my_dict = {'피자': '123-4567', '치킨': '333-3333'}
 my_dict[0]      # !!!!! ERROR
 ```
+
+::: warning
+- **`0`** 이라는 *key* 를 찾을 수 없다고 KeyError 발생
+:::
 
 ## Iterable
 
 - **iterable** 은 순회 가능하다는 것으로, 한번에 하나씩 자료들에 접근하는게 가능하다.
 - 다음 예시와 같이 `for` 문으로 **iterable** 을 확인할 수 있다.
+- 시퀀스 자료형들은 **iterable** 이다.
 
 ```python
 for item in [1, 2, 3, 4]:
@@ -46,8 +55,9 @@ for item in 'abcdef:
 
 ## mutable & immutable
 
+- 숫자형은 **imputable** 이다.
+- 문자열, 튜플, range 는 **immutable** 이므로 추가/수정/삭제할 수 없다.
 - 자료들의 집합에 새로운 자료를 추가하거나, 기존 자료를 수정 또는 삭제할 수 있다면 **mutable** 이다.
-- 문자열 또는 튜플은 **immutable** 이므로 추가/수정/삭제할 수 없다.
 
 ## 정리
 
