@@ -2,10 +2,8 @@
 export const sidebar = {
   '/python/': [
     {
-      text: 'python',
-      linke: '/python/',
-      collapsible: true,
-      children: ['/algo/README.md', ],
+      text: 'Python',      
+      children: ['./algo/README.md', './algo/arraay/1d_array.md'],
     },
   ],
 }

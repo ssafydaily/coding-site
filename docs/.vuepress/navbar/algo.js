@@ -5,7 +5,7 @@ export const introGroup = {
 export const arrayGroup = {
   text: 'array',
   children: [
-    '/algo/array/1d_array.md',  '/algo/array/2d_array.md', '/algo/array/array_partition.md',
+    '/algo/array/min_max', 
   ],
 }
 

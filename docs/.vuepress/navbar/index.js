@@ -4,8 +4,8 @@ import { webGroup } from "./web"
 import { testGroup } from "./test"
 import { djangoGroup } from "./django"
 export const navbar =  [      
-  pythonGroup,
-  // algoGroup,
+  // pythonGroup,
+  algoGroup,
   // djangoGroup,
   // webGroup,
   // testGroup,
