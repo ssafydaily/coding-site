@@ -33,14 +33,14 @@ module.exports = {
   ],
   theme: defaultTheme({
     navbar,
-    sidebar: {
-        '/python/': [
-          {
-            text: 'basic', 
-            children: ['/python/01_data_type.md', '/python/02_container.md'],
-          },
-        ],
-      },
+    // sidebar: {
+    //     '/python/': [
+    //       {
+    //         text: 'basic', 
+    //         children: ['/python/01_data_type.md', '/python/02_container.md'],
+    //       },
+    //     ],
+    //   },
   }),
   
 }

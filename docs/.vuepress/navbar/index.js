@@ -3,10 +3,12 @@ import { pythonGroup } from "./python"
 import { webGroup } from "./web"
 import { testGroup } from "./test"
 import { djangoGroup } from "./django"
+import { jsGroup } from "./javascript"
 export const navbar =  [      
   // pythonGroup,
-  algoGroup,
+  // algoGroup,
   // djangoGroup,
   // webGroup,
   // testGroup,
+  jsGroup,
 ]

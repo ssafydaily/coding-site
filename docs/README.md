@@ -3,9 +3,9 @@ sidebar: false
 next:
 ---
 
-> 수업내용 정리
+> 참고 노트
 
-### Python
+### Javascript
 
-### Algorithm
+### Vue.js
 
