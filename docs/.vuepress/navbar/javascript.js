@@ -4,6 +4,7 @@ export const basic = {
     '/js/module.md', 
     '/js/promise.md', 
     '/js/set_time_interval.md',
+    '/js/this.md',
   ],
 }
 
