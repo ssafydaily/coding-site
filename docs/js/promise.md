@@ -17,7 +17,8 @@
 
 --------
 
-## `Promise` 는 다음과 같이 생성할 수 있다.
+## `Promise` 생성하기
+
 ```javascript
 let promise = new Promise(function (resolve, reject) {
   // executor
@@ -73,7 +74,7 @@ promise.then(
 - 프로미스의 체이닝이 가능한 것은 `.then()` 을 호출하면 `promise` 가 반환되기 때문이다.
 
 ```javascript
-ew Promise(function(resolve, reject) {
+new Promise(function(resolve, reject) {
 
   setTimeout(() => resolve(1), 1000); // (*)
 
