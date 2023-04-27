@@ -3,6 +3,7 @@ export const basic = {
   children: [
     '/js/async_await.md',
     '/js/data_attribute.md',
+    '/js/infinite_scroll.md',
     '/js/intersection_observer.md',
     '/js/module.md', 
     '/js/promise.md', 
