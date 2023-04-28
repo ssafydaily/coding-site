@@ -29,9 +29,10 @@
 document.addEventListener('scroll', (event) => {
      
     const {scrollTop, scrollHeight, clientHeight} = document.documentElement
-
-    if(scrollHeight - scrollTop === clientHeight){
-
+    
+    // if(scrollHeight - scrollTop === clientHeight){
+    if (Math.abs(element.scrollHeight - element.clientHeight - element.scrollTop) < 1){
+      
     }
   }
 )

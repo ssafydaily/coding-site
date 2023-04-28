@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { iconifyPlugin } from 'vuepress-plugin-iconify'
 // ---------------------------------------------------------
-import { navbar } from './navbar'
+// import { navbar } from './navbar'
 import { sidebar } from './sidebar'
 module.exports = {
   base: '/coding-site',
@@ -31,16 +31,13 @@ module.exports = {
       },      
     }),
   ],
-  theme: defaultTheme({
-    navbar,
-    // sidebar: {
-    //     '/python/': [
-    //       {
-    //         text: 'basic', 
-    //         children: ['/python/01_data_type.md', '/python/02_container.md'],
-    //       },
-    //     ],
-    //   },
+  theme: defaultTheme({    
+    sidebar,
+    navbar: [
+      { text:'Home', link: '/'},
+      { text:'Javscript', link: '/js/'},
+      { text:'Vue.js', link: '/vue/'},
+    ],
   }),
   
 }

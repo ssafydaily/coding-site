@@ -3,7 +3,7 @@
 ## Array
 
 - 자바스크립트 배열 객체의 `sort()` 는 원본을 정렬
-- 문자열로 변환해서 내림차순으로 정렬
+- 문자열로 변환해서 정렬
 
 ```javascript
 const months = ['March', 'Jan', 'Feb', 'Dec']
