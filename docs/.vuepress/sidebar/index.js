@@ -9,8 +9,8 @@
 // }
 export const sidebar = [
   {
-    title: 'Javascript',
-    collapsable: true,
+    text: 'Javascript',
+    collapsible: true,
     children: [
       '/js/',
       '/js/async_await.md',
@@ -24,8 +24,8 @@ export const sidebar = [
     ]
   },
   {
-    title: 'Vue.js',
-    collapsable: true,
+    text: 'Vue.js',
+    collapsible: true,
     children: [
       '/vue/',
       '/vue/component.md',
