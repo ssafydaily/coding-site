@@ -9,6 +9,13 @@
 // }
 export const sidebar = [
   {
+    text: 'HTML/CSS',
+    collapsible: true,
+    children: [
+      '/css/transition.md',
+    ]
+  },
+  {
     text: 'Javascript',
     collapsible: true,
     children: [

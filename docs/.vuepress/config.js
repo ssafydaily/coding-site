@@ -35,6 +35,7 @@ module.exports = {
     sidebar,
     navbar: [
       { text:'Home', link: '/'},
+      { text: 'HTML/CSS', link: '/css/'},
       { text:'Javscript', link: '/js/'},
       { text:'Vue.js', link: '/vue/'},
     ],
