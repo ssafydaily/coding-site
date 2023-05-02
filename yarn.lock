@@ -125,6 +125,11 @@
     "@algolia/logger-common" "4.14.2"
     "@algolia/requester-common" "4.14.2"
 
+"@amoutonbrady/lz-string@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@amoutonbrady/lz-string/-/lz-string-0.0.1.tgz#f131cfbf0dfe3b73c8b7bd58c8e4c8fef7374f67"
+  integrity sha512-crH4ovRiiTg9y1lDTEtMwTdD4s/aYoz4EemUD3p+9GvHMOeJ3tUXQ/DQM1Mw9/wc9Od4jG97w0m9+gZmLysGFQ==
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -3065,6 +3070,14 @@ vue@^3.2.41, vue@^3.2.45:
     "@vue/runtime-dom" "3.2.45"
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
+
+vuepress-plugin-demo-code@^2.0.0-beta.1:
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-demo-code/-/vuepress-plugin-demo-code-2.0.0-beta.1.tgz#ed150d33a8f6c74fa153f9435632ac63bf787627"
+  integrity sha512-Nw4ZPMIfkcrGYUgttZdRtyThotXsmrJuUziPY5mO4LI7bUUoI1hwLqb0g9HH26m74H2PqZg7Q4HzSpSyFETPSg==
+  dependencies:
+    "@amoutonbrady/lz-string" "^0.0.1"
+    markdown-it-container "^3.0.0"
 
 vuepress-plugin-iconify@^0.1.0:
   version "0.1.0"
