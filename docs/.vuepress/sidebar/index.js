@@ -1,12 +1,3 @@
-
-// export const sidebar = {
-//   '/python/': [
-//     {
-//       text: 'Python',      
-//       children: ['./algo/README.md', './algo/arraay/1d_array.md'],
-//     },
-//   ],
-// }
 export const sidebar = [
   {
     text: 'HTML/CSS',
@@ -36,6 +27,7 @@ export const sidebar = [
     children: [
       '/vue/',
       '/vue/component.md',
+      '/vue/array.md',
     ]
   },
 ]
