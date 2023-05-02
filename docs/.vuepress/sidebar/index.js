@@ -4,6 +4,7 @@ export const sidebar = [
     collapsible: true,
     children: [
       '/css/transition.md',
+      '/css/scss.md',
     ]
   },
   {
@@ -14,6 +15,7 @@ export const sidebar = [
       '/js/async_await.md',
       '/js/data_attribute.md',
       '/js/intersection_observer.md',
+      '/js/localstorage.md',
       '/js/module.md', 
       '/js/promise.md', 
       '/js/set_time_interval.md',
@@ -28,6 +30,7 @@ export const sidebar = [
       '/vue/',
       '/vue/component.md',
       '/vue/array.md',
+      '/vue/env_var.md',
     ]
   },
 ]
