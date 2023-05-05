@@ -30,6 +30,7 @@ export const sidebar = [
       '/vue/',
       '/vue/component.md',
       '/vue/array.md',
+      '/vue/navigation_guard.md',
       '/vue/env_var.md',
     ]
   },
