@@ -37,6 +37,7 @@ module.exports = {
       { text:'Home', link: '/'},
       { text: 'HTML/CSS', link: '/css/'},
       { text:'Javscript', link: '/js/'},
+      { text: 'Django', link: '/django/'},
       { text:'Vue.js', link: '/vue/'},
     ],
   }),

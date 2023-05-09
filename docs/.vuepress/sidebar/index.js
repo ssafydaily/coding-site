@@ -8,6 +8,15 @@ export const sidebar = [
     ]
   },
   {
+    text: 'Django',
+    collapsible: true,
+    children: [
+      '/django/cors.md',      
+      '/django/jwt.md',      
+      '/django/dj_rest.md',      
+    ]
+  },
+  {
     text: 'Javascript',
     collapsible: true,
     children: [      

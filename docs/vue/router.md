@@ -85,3 +85,28 @@ const routes = [
   this.$router.push({name: 'home', params: {username: 'jong'}})
 </script>
 ```
+
+------------
+
+## Named Views
+```html
+<router-view class="view one"></router-view>
+<router-view class="view two" name="a"></router-view>
+<router-view class="view three" name="b"></router-view>
+```
+
+```js
+const router = new VueRouter({
+  routes: [
+    {
+      path: '/',
+      components: {
+        default: Foo,
+        a: Bar,
+        b: Baz
+      }
+    }
+  ]
+})
+```
+## props 전달
