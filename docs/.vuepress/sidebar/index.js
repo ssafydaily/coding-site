@@ -10,8 +10,7 @@ export const sidebar = [
   {
     text: 'Javascript',
     collapsible: true,
-    children: [
-      '/js/',
+    children: [      
       '/js/async_await.md',
       '/js/data_attribute.md',
       '/js/intersection_observer.md',
@@ -27,9 +26,9 @@ export const sidebar = [
     text: 'Vue.js',
     collapsible: true,
     children: [
-      '/vue/',
       '/vue/component.md',
       '/vue/array.md',
+      '/vue/router.md',
       '/vue/navigation_guard.md',
       '/vue/env_var.md',
     ]
