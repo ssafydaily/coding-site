@@ -29,6 +29,7 @@ export const sidebar = [
       '/js/set_time_interval.md',
       '/js/sorting.md',
       '/js/this.md',
+      '/js/opt_chain.md',
     ]
   },
   {
