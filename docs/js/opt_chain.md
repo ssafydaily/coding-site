@@ -9,6 +9,7 @@
   3. Nullish Coalescing
 
 ### Optional Chaining
+- `?.` 연산자는 `.` 체이닝 연산자와 유사하게 작동하지만, 만약 참조가 `nullish` (`null` 또는 `undefined`)면, `undefined` 를 반환
 
 ```javascript
 const user = {
