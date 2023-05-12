@@ -14,6 +14,7 @@ export const sidebar = [
       '/django/cors.md',      
       '/django/jwt.md',      
       '/django/dj_rest.md',      
+      '/django/tmdb.md',      
     ]
   },
   {
@@ -41,6 +42,7 @@ export const sidebar = [
       '/vue/router.md',
       '/vue/navigation_guard.md',
       '/vue/env_var.md',
+      '/vue/image_upload.md',
     ]
   },
 ]
