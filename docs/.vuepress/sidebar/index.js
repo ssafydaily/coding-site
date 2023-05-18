@@ -15,6 +15,7 @@ export const sidebar = [
       '/django/jwt.md',      
       '/django/dj_rest.md',      
       '/django/tmdb.md',      
+      '/django/custom_registration.md',      
     ]
   },
   {
