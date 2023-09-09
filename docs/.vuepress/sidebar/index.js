@@ -8,6 +8,16 @@ export const sidebar = [
     ]
   },
   {
+    text: 'Python',
+    collapsible: true,
+    children: [
+      '/python/10_fileIO.md',
+      '/python/21_numpy.md',
+      '/python/31_pandas.md',
+      '/python/41_matplot.md',
+    ]
+  },
+  {
     text: 'Django',
     collapsible: true,
     children: [
@@ -17,6 +27,7 @@ export const sidebar = [
       '/django/tmdb.md',      
       '/django/custom_registration.md', 
       '/django/pagination.md', 
+      '/django/request_response.md', 
     ]
   },
   {

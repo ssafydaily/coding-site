@@ -120,4 +120,39 @@ finally:
  `with` 키워드를 사용하거나 `f.close()`를 호출하지 않고 `f.write()`를 호출하면 프로그램이 정상적으로 종료되더라도 `f.write()`에 전달된 데이터가 디스크에 기록되지 않을 수 있다.
 :::
 
+------------
 
+## `io module`
+
+- `io` 모듈은 다양햔 유형의 **I/O** 를 처리
+  - 텍스트(Text), 바이너리(binary), 원시(raw)의 세가지 유형
+- `파일 객체(file Object)` 또는 `스트림 객체(stream object)`의 입출력 기능 활용
+
+### Text I/O
+- 텍스트 스트림을 생성하는 가장 쉬운 방법ㅇ느 `open()` 을 사용하는 것으로, 선택적으로 인코딩을 지정
+- 메모리 텍스트 스트림도 `StringIO` 객체로 제공
+```python
+f = open("myfile.txt", "r", encoding="utf-8")
+f = io.StringIO("some initial text data")
+```
+
+### Binary I/O
+- 바이너리 I/O는 버퍼링 된(buffered)  I/O 라고도 하며, `bytes` 객체를 생성
+- 바이너리 스트림은 `'b'`를 제공하여 `open()` 을 사용
+- 인 메모리 바이너리 스트림도 `BytesIO` 객체로 제공
+
+```python
+f = open("myfile.jpg", "rb")
+f = io.BytesIO(b"some initial binary data: \x00\x01")
+```
+
+::: tip
+**class io.BytesIO(inintial_bytes=b'')**
+- 인 메모리 바이트 버퍼를 사용하는 바이너리 스트림 `BufferedIOBase` 상속
+- `close()` 메서드가 호출되면 버퍼가 페기됨
+- 
+
+
+### Raw I/O
+- 원시 I/O는 버퍼링을 비활성화 해서 바이너리 모드로 파일을 열어 생성
+- `RawIOBase` 참고
