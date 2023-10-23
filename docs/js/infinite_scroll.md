@@ -1,4 +1,4 @@
-# scroll
+# infinite scroll
 
 ### Element: clientHeight
 

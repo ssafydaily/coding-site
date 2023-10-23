@@ -37,6 +37,7 @@ export const sidebar = [
       '/js/async_await.md',
       '/js/data_attribute.md',
       '/js/intersection_observer.md',
+      '/js/infinite_scroll.md',
       '/js/localstorage.md',
       '/js/module.md', 
       '/js/promise.md', 
