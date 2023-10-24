@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as r,a as t,b as c}from"./app.2a81dd92.js";const o={},s=t("h1",{id:"data-attribute",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#data-attribute","aria-hidden":"true"},"#"),c(" Data Attribute")],-1),_=[s];function d(i,n){return a(),r("div",null,_)}const h=e(o,[["render",d],["__file","data_attribute.html.vue"]]);export{h as default};

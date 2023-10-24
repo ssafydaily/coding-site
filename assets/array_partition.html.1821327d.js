@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as r,a as e,b as o}from"./app.2a81dd92.js";const c={},n=e("h1",{id:"배열-분할",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#배열-분할","aria-hidden":"true"},"#"),o(" 배열 분할")],-1),s=[n];function _(i,d){return t(),r("div",null,s)}const l=a(c,[["render",_],["__file","array_partition.html.vue"]]);export{l as default};

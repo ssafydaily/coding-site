@@ -1,0 +1,1 @@
+import{_ as a,o,c,a as e,b as t}from"./app.2a81dd92.js";const _={},d=e("h1",{id:"module-package",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#module-package","aria-hidden":"true"},"#"),t(" Module / Package")],-1),r=[d];function s(n,l){return o(),c("div",null,r)}const u=a(_,[["render",s],["__file","06_module.html.vue"]]);export{u as default};

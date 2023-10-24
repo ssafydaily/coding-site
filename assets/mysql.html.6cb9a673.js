@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-151172d2","path":"/django/mysql.html","title":"mysql 연동하기","lang":"ko-KR","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1670240396000,"contributors":[{"name":"jongyun","email":"jongyun.jung@gmail.com","commits":1}]},"filePathRelative":"django/mysql.md"}');export{t as data};

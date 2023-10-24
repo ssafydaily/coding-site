@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as n,a as e,b as o}from"./app.2a81dd92.js";const c={},r=e("h1",{id:"django",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#django","aria-hidden":"true"},"#"),o(" Django")],-1),s=[r];function d(_,i){return t(),n("div",null,s)}const l=a(c,[["render",d],["__file","index.html.vue"]]);export{l as default};

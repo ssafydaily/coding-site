@@ -1,0 +1,1 @@
+import{_ as a,o,c as t,a as e,b as c}from"./app.2a81dd92.js";const r={},s=e("h1",{id:"localstorage",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#localstorage","aria-hidden":"true"},"#"),c(" localStorage")],-1),l=[s];function n(_,d){return o(),t("div",null,l)}const h=a(r,[["render",n],["__file","localstorage.html.vue"]]);export{h as default};

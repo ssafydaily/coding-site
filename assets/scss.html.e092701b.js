@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-134daec4","path":"/css/scss.html","title":"SASS, SCSS","lang":"ko-KR","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1683032514000,"contributors":[{"name":"jung","email":"jongyun.jung@gmail.com","commits":1}]},"filePathRelative":"css/scss.md"}');export{t as data};

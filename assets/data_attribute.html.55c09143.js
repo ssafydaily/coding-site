@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-751b8d36","path":"/js/data_attribute.html","title":"Data Attribute","lang":"ko-KR","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1682349353000,"contributors":[{"name":"ssafydaily","email":"ssafydaily@gmail.com","commits":1}]},"filePathRelative":"js/data_attribute.md"}');export{t as data};

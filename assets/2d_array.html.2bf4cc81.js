@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as t,a as e,b as _}from"./app.2a81dd92.js";const c={},o=e("h1",{id:"_2차-배열-조작",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_2차-배열-조작","aria-hidden":"true"},"#"),_(" 2차 배열 조작")],-1),s=[o];function n(d,i){return r(),t("div",null,s)}const l=a(c,[["render",n],["__file","2d_array.html.vue"]]);export{l as default};
